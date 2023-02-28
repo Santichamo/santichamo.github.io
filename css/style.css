@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/* Aplico estilos y voy anidando */
+.body {
+  background: #f0f0f0; }
+
+.main {
+  background: #f0f0f0;
+}
+  
+.main .h1 {
+  text-transform: uppercase;
+  font-family: "Muli", sans-serif;
+  font-weight: 900;
+}
+
+.main .h2 {
+  font-family: "Rajdhani", sans-serif;
+}
+
+.main .card {
+  background: none;
+  border: none;
+}
+    
+.main .card .card-header {
+  font-family: "Rajdhani", sans-serif;
+  background: #FBB900;
+}
+
+.main .card .h3 {
+  font-family: "Muli", sans-serif;
+  font-weight: 900;
+  font-size: 1.2em;
+}
+    
+.main .card .p {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.2em;
+}
+
+.aside {
+  background: #FBB900;
+}
+
+.aside .card {
+  background: none;
+  border: none;
+}
+
+.aside .card .perfil {
+  border-radius: 50%;
+}
+    
+.aside .card .h4 {
+  font-family: "Muli", sans-serif;
+  font-weight: 900;
+}
+
+.aside .card .p {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.2em;
+}
+
+/* Aplico estilos para los títulos y textos*/
+.btn {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.2em;
+}
+
+/* Aplico estilos para el Menú Principal */
+.navbar {
+  background: #575756 !important;
+  font-family: "Rajdhani", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #FBB900 !important;
+}
+
+/* Aplico a las redes sociales del pie de página */
+#redes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.red {
+  width: 25px;
+  height: 25px;
+}
+
+/* Imágenes al 100 % de su contenedor */
+.img {
+  width: 100%; }
+
+/* Elimino el fondo por default de Bootstrap*/
+.none {
+  background: none; }
+
+/* Habilidades en mi CV */
+.ps {
+  width: 60%; }
+
+.ai {
+  width: 80%; }
+
+.id, .ingles {
+  width: 50%; }
+
+/* barra */
+.barra {
+  background-color: #ccc;
+  width: 90%;
+  margin: 15px auto; }
+
+/*indesign*/
+.indesign {
+  width: 50%;
+  height: 10px;
+  background-color: red;
+}
+
+/* illustrator */
+.illustrator {
+  width: 80%;
+  height: 10px;
+  background-color: orange;
+};
+
+/* photoshop*/
+.photoshop {
+  width: 60%;
+  height: 10px;
+  background-color: dodgerBlue;
+}
+
+#btn-less {
+  display: none;
+}
