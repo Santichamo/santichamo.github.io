@@ -1,6 +1,6 @@
 
 var info1 = "Un diseñador queriendo incurcionar en el mundo del Desarrollo Web.";
-var info2 = "Un diseñador queriendo incurcionar en el mundo del Desarrollo Web. Busco encontrar mi primer empleo IT y convertirme en Desarrollador Front-End";
+var info2 = "Un diseñador queriendo incurcionar en el mundo del Desarrollo Web. Sueño con encontrar mi primer empleo IT y convertirme en Desarrollador Front-End";
 
 const about = document.getElementById('about');
 const btnLess = document.getElementById('btn-less');
